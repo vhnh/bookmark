@@ -1,0 +1,38 @@
+{
+    "name": "vhnh/bookmark",
+    "license": "MIT",
+    "description": "Bookmark your eloquent models",
+    "homepage": "http://github.com/vhnh/bookmark",
+    "authors": [
+        {
+            "name": "Tobias Thaden",
+            "email": "hello@tobiasthaden.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/vhnh/bookmark/issues",
+        "source": "https://github.com/vhnh/bookmark"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Vhnh\\Bookmark\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vhnh\\Bookmark\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.2.5"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.3"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    }
+}
