@@ -4,6 +4,8 @@
 
 The Vhnh Bookmark package allows bookmarking eloquent models within your [Laravel](https://github.com/laravel/laravel) application.
 
+![tests](https://github.com/vhnh/bookmark/workflows/tests/badge.svg)
+
 ## Setup
 
 Frist we'll add the `Vhnh\Bookmark\Bookmarker` trait to our user model. The trait allows retrieving bookmarks and cascades the `Vhnh\Bookmark\Bookmark`s if the user will be deleted.
